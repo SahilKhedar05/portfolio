@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sahil Khedar | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Sahil Khedar</h1>
+    <p>B.Tech CSE Student | Python • ML • Web Developer</p>
+</header>
+
+<!-- NAVBAR -->
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <h2>About Me</h2>
+    <p>
+        I am a Computer Science Engineering student with strong interest in
+        Python development, Machine Learning, and intelligent systems.
+        I have built real-world projects like a JARVIS GUI Assistant and
+        deep learning models using TensorFlow.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python</li>
+        <li>Machine Learning</li>
+        <li>HTML, CSS, JavaScript</li>
+        <li>TensorFlow</li>
+        <li>Git & GitHub</li>
+    </ul>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Advanced JARVIS GUI Assistant</h3>
+        <p>
+            Voice-controlled desktop assistant built using Python and Tkinter
+            with system automation, brightness control, and voice commands.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>American Sign Language Recognition System</h3>
+        <p>
+            Real-time hand gesture recognition system using computer vision
+            and deep learning for accessible communication.
+        </p>
+    </div>
+
+    <div class="project">
+        <h3>Generate Human Faces using DCGAN</h3>
+        <p>
+            Implemented a Deep Convolutional GAN using TensorFlow to generate
+            realistic human face images.
+        </p>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:sahilkhedar05@gmail.com">
+            sahilkhedar05@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <strong>LinkedIn:</strong>
+        <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank">
+            linkedin.com/in/your-linkedin-id
+        </a>
+    </p>
+
+    <p>
+        <strong>GitHub:</strong>
+        <a href="https://github.com/your-github-username" target="_blank">
+            github.com/your-github-username
+        </a>
+    </p>
+
+    <a class="download" href="Sahil_Khedar_Resume.pdf" download>
+        Download Resume
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2025 Sahil Khedar. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

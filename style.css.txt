@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+header h1 {
+    font-size: 2.8rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Navbar */
+nav {
+    background-color: #020617;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: #93c5fd;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff;
+}
+
+/* Sections */
+section {
+    padding: 60px 12%;
+}
+
+section h2 {
+    color: #60a5fa;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+/* Skills */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Projects */
+.project {
+    background-color: #020617;
+    padding: 20px;
+    border-left: 4px solid #3b82f6;
+    margin-bottom: 20px;
+    border-radius: 6px;
+}
+
+/* Contact */
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Resume Button */
+a.download {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+a.download:hover {
+    background-color: #1e40af;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #020617;
+    color: #9ca3af;
+}
